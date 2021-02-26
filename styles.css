@@ -17,6 +17,10 @@ h1{
     color: #fce836;
 }
 
+h2{
+    font-size: .8rem;
+}
+
 textarea:focus, input:focus{
     outline: none;
 }
@@ -31,7 +35,7 @@ a:hover{
 
 
 #login-container{
-    background-color: #fff;
+    background-color: #6794d9;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -64,6 +68,7 @@ input{
     padding: 10px;
     font-size: 1rem;
     margin-bottom: 20px;
+    background-color: #ccc;
 }
 
 
@@ -80,7 +85,7 @@ input[type="submit"]{
     height: 40px;
     margin-top: 30px;
     color: #fce836;
-    background-color: #6794d9;
+    background-color: #153092;
     cursor: pointer;
 
 }
