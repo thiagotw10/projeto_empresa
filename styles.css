@@ -76,7 +76,7 @@ input{
 
 
 input:focus{
-    border: 2px solid #6794d9;
+    border: 2px solid #fce836;
 }
 
 input[type="submit"]{
