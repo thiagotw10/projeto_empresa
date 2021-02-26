@@ -21,7 +21,7 @@ if($row == 1){
     header('Location: painel.php');
     exit();
 } else{
-    header( 'Location: index.php');
+    header( 'Location: index.html');
     exit();
 }
 
