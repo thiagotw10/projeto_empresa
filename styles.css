@@ -15,6 +15,11 @@ body{
 
 }
 
+#login-container img{
+    max-width: 100%;
+    height: auto;
+}
+
 h1{
     font-size: 3rem;
     color: #fce836;
@@ -98,4 +103,8 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background-color: #1b223c;
     transition: .5s;
+}
+
+img{
+
 }

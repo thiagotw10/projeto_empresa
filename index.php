@@ -12,8 +12,7 @@
 </head>
 <body>
     <div id="login-container">
-        <h1>sgt</h1>
-        <h2>Sistema de gestão da telecomunicação</h2>
+    <img src="img/logo.png">
         <form action="login.php" method="POST">
             <label for="email">Login</label>
             <input type="text" name="usuario" id="email" placeholder="Digite sua Matricula ou Cpf" autocomplete="off">
