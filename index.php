@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -13,11 +14,11 @@
     <div id="login-container">
         <h1>sgt</h1>
         <h2>Sistema de gestão da telecomunicação</h2>
-        <form action="">
+        <form action="login.php" method="POST">
             <label for="email">Login</label>
-            <input type="text" name="email" id="email" placeholder="Digite sua Matricula ou Cpf">
+            <input type="text" name="usuario" id="email" placeholder="Digite sua Matricula ou Cpf" autocomplete="off">
             <label for="password">Senha</label>
-            <input type="password" name="password" id="password" placeholder="Digite sua senha">
+            <input type="password" name="senha" id="password" placeholder="Digite sua senha">
             <a href="#" id="forgot-pass">Esqueceu a senha?</a>
             <input type="submit" value="Entrar">
         </form>
